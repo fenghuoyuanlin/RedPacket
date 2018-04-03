@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    //个人中心
     self.title = @"个人中心";
 }
 
