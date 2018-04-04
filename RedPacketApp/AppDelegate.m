@@ -35,6 +35,8 @@
     
     self.window.rootViewController = xcq_tab ;
     
+    NSLog(@"初始化环信SDK");
+    
     //初始化环信SDK
     [self initHuanXinSDK];
     

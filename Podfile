@@ -7,6 +7,7 @@ target 'RedPacketApp' do
   pod 'AFNetworking'
   pod 'Masonry'
   pod 'MBProgressHUD'
+  pod 'MJExtension'
   pod 'MJRefresh'
   pod 'SVProgressHUD'
   pod 'SDWebImage'

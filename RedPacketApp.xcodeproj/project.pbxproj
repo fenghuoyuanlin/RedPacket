@@ -103,6 +103,11 @@
 		82D80679A8F7AE8E672B626A /* libPods-RedPacketAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6714D7D0FFDCE1787C6805A6 /* libPods-RedPacketAppTests.a */; };
 		BDE6750FA1B994EFD552DCD6 /* libPods-RedPacketAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DBA3C45CB0B66D007E73D6E /* libPods-RedPacketAppUITests.a */; };
 		DFF46A7F83C601E08C7DB781 /* libPods-RedPacketApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 070366FD8E90F7E28A8EE086 /* libPods-RedPacketApp.a */; };
+		FC294AA42074609A00D0CDFA /* MyCenterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FC294AA32074609A00D0CDFA /* MyCenterModel.m */; };
+		FC294AA7207460C100D0CDFA /* LYMyCenterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC294AA6207460C100D0CDFA /* LYMyCenterCell.m */; };
+		FC294AAC2074639A00D0CDFA /* DCConsts.m in Sources */ = {isa = PBXBuildFile; fileRef = FC294AAA2074639A00D0CDFA /* DCConsts.m */; };
+		FC294AB22074696100D0CDFA /* LYHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC294AB12074696100D0CDFA /* LYHeaderCell.m */; };
+		FC294AB4207478A400D0CDFA /* MyselfNote.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC294AB3207478A300D0CDFA /* MyselfNote.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -277,6 +282,15 @@
 		C34D706E072EB03D4EE51006 /* Pods-RedPacketAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedPacketAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedPacketAppUITests/Pods-RedPacketAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DFAE0EA3C06C41C8BB772C39 /* Pods-RedPacketAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedPacketAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedPacketAppTests/Pods-RedPacketAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F80BFADE367A7030076D9446 /* Pods-RedPacketApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedPacketApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RedPacketApp/Pods-RedPacketApp.release.xcconfig"; sourceTree = "<group>"; };
+		FC294AA22074609A00D0CDFA /* MyCenterModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCenterModel.h; sourceTree = "<group>"; };
+		FC294AA32074609A00D0CDFA /* MyCenterModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCenterModel.m; sourceTree = "<group>"; };
+		FC294AA5207460C100D0CDFA /* LYMyCenterCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYMyCenterCell.h; sourceTree = "<group>"; };
+		FC294AA6207460C100D0CDFA /* LYMyCenterCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYMyCenterCell.m; sourceTree = "<group>"; };
+		FC294AAA2074639A00D0CDFA /* DCConsts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCConsts.m; sourceTree = "<group>"; };
+		FC294AAB2074639A00D0CDFA /* DCConsts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCConsts.h; sourceTree = "<group>"; };
+		FC294AB02074696100D0CDFA /* LYHeaderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYHeaderCell.h; sourceTree = "<group>"; };
+		FC294AB12074696100D0CDFA /* LYHeaderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYHeaderCell.m; sourceTree = "<group>"; };
+		FC294AB3207478A300D0CDFA /* MyselfNote.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MyselfNote.plist; sourceTree = "<group>"; };
 		FFC10A90F76AF7FB2BE8DDFE /* Pods-RedPacketApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedPacketApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RedPacketApp/Pods-RedPacketApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -513,6 +527,7 @@
 		186B19E0205A11D4003BDB20 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				FC294AA82074634E00D0CDFA /* Plist */,
 				1881369B206E05EF00E0E5ED /* ConverSation */,
 				1881369F206E05EF00E0E5ED /* TabBar */,
 				187A8D75206B8F4C00921A46 /* ChatDetails */,
@@ -575,6 +590,7 @@
 		186B1CCA205A3BE2003BDB20 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				FC294AA92074638000D0CDFA /* DCConst */,
 				1877932320732C5000897B6B /* XYOpenRedPacket */,
 				18750E36206CD631006A73BA /* ChatViewHelper */,
 				187A8D7C206B916700921A46 /* XYTextFiled */,
@@ -735,9 +751,9 @@
 		187A8D5D206B68AB00921A46 /* RedPacketMyCenter */ = {
 			isa = PBXGroup;
 			children = (
-				187A8D62206B690800921A46 /* MyCenterModel */,
+				FC294AA02074607100D0CDFA /* MyCenterModel */,
+				FC294AA12074607200D0CDFA /* MyCenterView */,
 				187A8D64206B690800921A46 /* MyCenterVC */,
-				187A8D63206B690800921A46 /* MyCenterView */,
 			);
 			path = RedPacketMyCenter;
 			sourceTree = "<group>";
@@ -773,20 +789,6 @@
 				187A8D6D206B699500921A46 /* GameVC.m */,
 			);
 			path = GameVC;
-			sourceTree = "<group>";
-		};
-		187A8D62206B690800921A46 /* MyCenterModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = MyCenterModel;
-			sourceTree = "<group>";
-		};
-		187A8D63206B690800921A46 /* MyCenterView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = MyCenterView;
 			sourceTree = "<group>";
 		};
 		187A8D64206B690800921A46 /* MyCenterVC */ = {
@@ -1023,6 +1025,43 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FC294AA02074607100D0CDFA /* MyCenterModel */ = {
+			isa = PBXGroup;
+			children = (
+				FC294AA22074609A00D0CDFA /* MyCenterModel.h */,
+				FC294AA32074609A00D0CDFA /* MyCenterModel.m */,
+			);
+			path = MyCenterModel;
+			sourceTree = "<group>";
+		};
+		FC294AA12074607200D0CDFA /* MyCenterView */ = {
+			isa = PBXGroup;
+			children = (
+				FC294AA5207460C100D0CDFA /* LYMyCenterCell.h */,
+				FC294AA6207460C100D0CDFA /* LYMyCenterCell.m */,
+				FC294AB02074696100D0CDFA /* LYHeaderCell.h */,
+				FC294AB12074696100D0CDFA /* LYHeaderCell.m */,
+			);
+			path = MyCenterView;
+			sourceTree = "<group>";
+		};
+		FC294AA82074634E00D0CDFA /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				FC294AB3207478A300D0CDFA /* MyselfNote.plist */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		FC294AA92074638000D0CDFA /* DCConst */ = {
+			isa = PBXGroup;
+			children = (
+				FC294AAB2074639A00D0CDFA /* DCConsts.h */,
+				FC294AAA2074639A00D0CDFA /* DCConsts.m */,
+			);
+			path = DCConst;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1054,8 +1093,6 @@
 				186B19B8205A106D003BDB20 /* Sources */,
 				186B19B9205A106D003BDB20 /* Frameworks */,
 				186B19BA205A106D003BDB20 /* Resources */,
-				E237D168FC380B6BF9C5581A /* [CP] Embed Pods Frameworks */,
-				7F4C634A0AE88E619811A9D9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1075,8 +1112,6 @@
 				186B19C3205A106D003BDB20 /* Sources */,
 				186B19C4205A106D003BDB20 /* Frameworks */,
 				186B19C5205A106D003BDB20 /* Resources */,
-				6D7511DFF203D3890276D949 /* [CP] Embed Pods Frameworks */,
-				28A047202239A5A59A32AABB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1160,6 +1195,7 @@
 				188136AB206E05EF00E0E5ED /* 5059454.png-thumb.jpg in Resources */,
 				18779333207348FB00897B6B /* avatar@2x.png in Resources */,
 				186B19B1205A106D003BDB20 /* Assets.xcassets in Resources */,
+				FC294AB4207478A400D0CDFA /* MyselfNote.plist in Resources */,
 				18813697206DE8CF00E0E5ED /* mic_4.png in Resources */,
 				188136B4206E05EF00E0E5ED /* ic_c_montain_gray@2x.png in Resources */,
 				188136C8206E064800E0E5ED /* chat_sender_audio_playing_003@2x.png in Resources */,
@@ -1231,21 +1267,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedPacketApp/Pods-RedPacketApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		28A047202239A5A59A32AABB /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedPacketAppUITests/Pods-RedPacketAppUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2DB54BCE493DAF245722942F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1282,36 +1303,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6D7511DFF203D3890276D949 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedPacketAppUITests/Pods-RedPacketAppUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7F4C634A0AE88E619811A9D9 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedPacketAppTests/Pods-RedPacketAppTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		BB7CA180E3A6D8C8B78E6391 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1328,21 +1319,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E237D168FC380B6BF9C5581A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RedPacketAppTests/Pods-RedPacketAppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FAEC301497E2DA8ADF485928 /* [CP] Check Pods Manifest.lock */ = {
@@ -1376,6 +1352,7 @@
 				186202932069F45700F1E1C1 /* GroupInfomationVC.m in Sources */,
 				186202892069DCD800F1E1C1 /* NSObject+SwizzleMethod.m in Sources */,
 				188136D0206E06F700E0E5ED /* PlayVoiceImgView.m in Sources */,
+				FC294AAC2074639A00D0CDFA /* DCConsts.m in Sources */,
 				185A6C612061F2EC00B7A408 /* ChatMessageCell.m in Sources */,
 				18750E39206CD640006A73BA /* ChatViewHelper.m in Sources */,
 				18D923242064CC6A003C6A00 /* GroupListVC.m in Sources */,
@@ -1394,6 +1371,7 @@
 				186B1CCE205A3BFB003BDB20 /* Factory.m in Sources */,
 				1877931E2073169900897B6B /* RedPacketView.m in Sources */,
 				186B19F2205A11D4003BDB20 /* XCQ_tabbar.m in Sources */,
+				FC294AA42074609A00D0CDFA /* MyCenterModel.m in Sources */,
 				186B19FF205A11D4003BDB20 /* UILabel+Category.m in Sources */,
 				187A8D6E206B699500921A46 /* GameVC.m in Sources */,
 				1844CDE5206490E3004871FC /* SendRedPacketVC.m in Sources */,
@@ -1401,11 +1379,13 @@
 				18813689206DE78800E0E5ED /* CDPAudioRecorder.m in Sources */,
 				186B1CC9205A394B003BDB20 /* RedNavigationController.m in Sources */,
 				1862028F2069DD8900F1E1C1 /* NSArray+ErrorHandle.m in Sources */,
+				FC294AB22074696100D0CDFA /* LYHeaderCell.m in Sources */,
 				1877D0E22063B4720091A3A7 /* AddRedPacketView.m in Sources */,
 				1844CDED2064947C004871FC /* PopModalFatherVC.m in Sources */,
 				1844CDE920649363004871FC /* UIView+Category.m in Sources */,
 				187A8D71206B69BD00921A46 /* MyCenterVC.m in Sources */,
 				1844CDF420649DF5004871FC /* FriendsVC.m in Sources */,
+				FC294AA7207460C100D0CDFA /* LYMyCenterCell.m in Sources */,
 				187A8D7F206B917800921A46 /* XYTextFiled.m in Sources */,
 				18779339207348FB00897B6B /* WSRewardConfig.m in Sources */,
 				187A8D74206B69CB00921A46 /* ShareVC.m in Sources */,

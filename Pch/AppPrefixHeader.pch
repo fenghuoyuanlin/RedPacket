@@ -23,6 +23,7 @@
 #import "NSMutableArray+ErrorHandle.h"
 #import "UIImageView+Category.h"
 #import "Factory.h"
+#import "DCConsts.h"
 #import "ChatViewHelper.h"
 //#import <HyphenateLite/HyphenateLite.h>
 #import <Hyphenate/Hyphenate.h>

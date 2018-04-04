@@ -22,6 +22,11 @@
 #define NSLog(FORMAT, ...) nil
 #endif
 
+/** 屏幕高度 */
+#define ScreenH [UIScreen mainScreen].bounds.size.height
+/** 屏幕宽度 */
+#define ScreenW [UIScreen mainScreen].bounds.size.width
+
 //电池栏
 #define kStatusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
 //导航栏
@@ -44,6 +49,32 @@
 #define m6PScale              kScreenWidth/1242.0
 #define m6Scale               kScreenWidth/750.0
 #define m5Scale               kScreenWidth/640.0
+
+//全局背景色
+#define DCBGColor RGB(245,245,245)
+
+#define PFR [[[UIDevice currentDevice] systemVersion] floatValue] >= 9.0 ? @"PingFangSC-Regular" : @"PingFang SC"
+
+#define PFR20Font [UIFont fontWithName:PFR size:20];
+#define PFR18Font [UIFont fontWithName:PFR size:18];
+#define PFR16Font [UIFont fontWithName:PFR size:16];
+#define PFR15Font [UIFont fontWithName:PFR size:15];
+#define PFR14Font [UIFont fontWithName:PFR size:14];
+#define PFR13Font [UIFont fontWithName:PFR size:13];
+#define PFR12Font [UIFont fontWithName:PFR size:12];
+#define PFR11Font [UIFont fontWithName:PFR size:11];
+#define PFR10Font [UIFont fontWithName:PFR size:10];
+
+/*****************  屏幕适配  ******************/
+#define iphone6p (ScreenH == 763)
+#define iphone6 (ScreenH == 667)
+//根据屏幕的大小自适应
+#define iphone5 (ScreenH / 700 < 1)
+#define iphone4 (ScreenH == 480)
+
+//色值
+#define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+#define RGB(r,g,b) RGBA(r,g,b,1.0f)
 
 //存储到本地
 #define UserDefaults(Object, Key)\
