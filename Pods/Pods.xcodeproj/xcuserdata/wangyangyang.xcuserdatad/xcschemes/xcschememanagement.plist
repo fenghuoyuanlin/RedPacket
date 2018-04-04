@@ -6,6 +6,7 @@
 	<dict>
 		<key>AFNetworking.xcscheme</key>
 		<dict>
+<<<<<<< HEAD
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
@@ -22,18 +23,29 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
+=======
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>MBProgressHUD.xcscheme</key>
+		<dict>
+>>>>>>> 9b1028048746513d5a87057ec354e371479032a1
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
 		<key>MJRefresh.xcscheme</key>
 		<dict>
+<<<<<<< HEAD
 			<key>isShown</key>
 			<false/>
+=======
+>>>>>>> 9b1028048746513d5a87057ec354e371479032a1
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
 		<key>Masonry.xcscheme</key>
 		<dict>
+<<<<<<< HEAD
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
@@ -43,39 +55,61 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
+=======
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Pods-RedPacketApp.xcscheme</key>
+		<dict>
+>>>>>>> 9b1028048746513d5a87057ec354e371479032a1
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
 		<key>Pods-RedPacketAppTests.xcscheme</key>
 		<dict>
+<<<<<<< HEAD
 			<key>isShown</key>
 			<false/>
+=======
+>>>>>>> 9b1028048746513d5a87057ec354e371479032a1
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
 		<key>Pods-RedPacketAppUITests.xcscheme</key>
 		<dict>
+<<<<<<< HEAD
 			<key>isShown</key>
 			<false/>
+=======
+>>>>>>> 9b1028048746513d5a87057ec354e371479032a1
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
 		<key>SDWebImage.xcscheme</key>
 		<dict>
+<<<<<<< HEAD
 			<key>isShown</key>
 			<false/>
+=======
+>>>>>>> 9b1028048746513d5a87057ec354e371479032a1
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
 		<key>SVProgressHUD.xcscheme</key>
 		<dict>
+<<<<<<< HEAD
 			<key>isShown</key>
 			<false/>
+=======
+>>>>>>> 9b1028048746513d5a87057ec354e371479032a1
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
 	</dict>
+<<<<<<< HEAD
 	<key>SuppressBuildableAutocreation</key>
 	<dict/>
+=======
+>>>>>>> 9b1028048746513d5a87057ec354e371479032a1
 </dict>
 </plist>

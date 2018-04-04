@@ -66,6 +66,7 @@ static NSString *const LYHeaderCellID = @"LYHeaderCell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+<<<<<<< HEAD
     
     [self setUpBase];
 }
@@ -75,6 +76,8 @@ static NSString *const LYHeaderCellID = @"LYHeaderCell";
 {
     self.view.backgroundColor = DCBGColor;
     self.automaticallyAdjustsScrollViewInsets = NO;
+=======
+>>>>>>> 9b1028048746513d5a87057ec354e371479032a1
     //个人中心
     self.title = @"个人中心";
     self.tableView.backgroundColor = DCBGColor;
@@ -82,6 +85,7 @@ static NSString *const LYHeaderCellID = @"LYHeaderCell";
     [self setUpNav];
 }
 
+<<<<<<< HEAD
 #pragma mark - 设置导航栏
 -(void)setUpNav
 {
@@ -165,5 +169,7 @@ static NSString *const LYHeaderCellID = @"LYHeaderCell";
 {
     
 }
+=======
+>>>>>>> 9b1028048746513d5a87057ec354e371479032a1
 
 @end
